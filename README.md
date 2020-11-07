@@ -8,11 +8,11 @@ The overview of this analysis was to find the temperature trends to make sure th
 
 First we queried the data to collect all temperatures for the month of June. We had to filter it so we extracted only the month date from the date column. Then we generated summary statistics of temperatures for the month of June using the describe function. There we could see the count, mean, std, min, quartile percentages, and max temp. This showed us a good overall picture of what weather in June is like. 
 
-![](Resources/JuneResults)
+![](Resources/JuneResults.png)
 
 Next we queried the data to collect all temperatures for the month of December. Again, we had to filter it so we only extracted the month date from the date column. Then we generated summary statistics of temperatures for the month of December using the describe function. This gave us the count, mean, std, min temp, quartile percentages, and max temp. Using this, gives us a good idea of what weather in December looks like. 
 
-![](Resources/Decemberresults)
+![](Resources/Decemberresults.png)
 
 There were a couple of differences between June and December. First December's minimum temperature was 56 compared to 64. December's maximum temperature was 83 whereas June's maximum temperature was 85. Lastly, the average temperature in June was 75 whereas the average temperature in December was 71. December is a cooler month by June, as expected with a colder season.
 
@@ -26,7 +26,7 @@ Both June and December have similar weather patterns, and the data does not show
 
 Two additional queries I'd look into, would be to look at the precipation for both months. I'd want to make sure those months don't have a ton of rain or in subsceptible to hurricanes. Too much rain could also make a business not sustainable year round.  Here I'd change the query I used above in temperatures to extract the precipation column instead of temperature column to gain this information.
 
-![](Resources/JunePrecipitation)
-![](Resources/DecemberPrecipitation)
+![](Resources/JunePrecipitation.png)
+![](Resources/DecemberPrecipitation.png)
 
 Looking at both June and December, neither month looks to be alarming on precipatation. Using the mean, it shows .13 precipitation a day for June and .17 precipitation a day for December. Both months looked to have a couple days that had a decent amount of rain, 6 in Decemmer, and 4 in June. The average is low enough and quartiles are also low, that these days look to be more like outliers and nothing to be concerned about.
