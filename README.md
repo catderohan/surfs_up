@@ -8,13 +8,13 @@ The overview of this analysis was to find the temperature trends to make sure th
 
 First we queried the data to collect all temperatures for the month of June. We had to filter it so we extracted only the month date from the date column. Then we generated summary statistics of temperatures for the month of June using the describe function. There we could see the count, mean, std, min, quartile percentages, and max temp. This showed us a good overall picture of what weather in June is like. 
 
-**June Results**
+### **June Results**
 
 ![](Resources/JuneResults.PNG)
 
 Next we queried the data to collect all temperatures for the month of December. Again, we had to filter it so we only extracted the month date from the date column. Then we generated summary statistics of temperatures for the month of December using the describe function. This gave us the count, mean, std, min temp, quartile percentages, and max temp. Using this, gives us a good idea of what weather in December looks like. 
 
-**December Results**
+### **December Results**
 
 ![](Resources/Decemberresults.PNG)
 
@@ -28,11 +28,11 @@ December weather also looks to be promising for a winter month. The minimum temp
 
 Both June and December have similar weather patterns, and the data does not show any reason not open up a shop year round. Using June and Decemeber months, the surf and ice cream shop business would be sustainable year round.
 
-**Additional Queries**
+### **Additional Queries**
 
 Two additional queries I'd look into, would be to look at the precipation for both June and December. I'd want to make sure those months don't have a ton of rain or subsceptible to hurricanes. Too much rain could also make a business not sustainable year round.  Here I'd change the query I used above in temperatures to extract the precipation column instead of temperature column to gain this information.
 
 ![](Resources/Juneprecipitation.PNG)
 ![](Resources/decemberpreciptation.PNG)
 
-Analyzing both June and December precipitation statistics, neither month seems to have a lot of rain. Using the mean, it shows the average of .13cm precipitation a day for June and .17cm precipitation a day for December. Both months had a couple days where it rained significantly, since the max precipitation in December was 6cm, and the max in June was 4cm. The average precipitation is low enough and quartiles are also low, that these days seem to be more like outliers and nothing to be concerned about.
+Analyzing both June and December precipitation statistics, neither month seems to have a signficiant amount of rain. Using the mean, it shows the average of .13cm precipitation a day for June and .17cm precipitation a day for December. Both months had at least one day where it rained significantly, since the max precipitation in December was 6cm, and the max in June was 4cm. The average precipitation is low enough and quartiles are also in low ranges, that these days seem to be more like outliers and nothing to be concerned about. Both precipitation and temperature are in line for the surf and ice cream business to be sustainable year round.
