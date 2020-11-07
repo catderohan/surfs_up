@@ -27,6 +27,6 @@ Both June and December have similar weather patterns, and the data does not show
 Two additional queries I'd look into, would be to look at the precipation for both months. I'd want to make sure those months don't have a ton of rain or in subsceptible to hurricanes. Too much rain could also make a business not sustainable year round.  Here I'd change the query I used above in temperatures to extract the precipation column instead of temperature column to gain this information.
 
 ![](Resources/JunePrecipitation.png)
-![](Resources/DecemberPrecipitation.png)
+![](Resources/DecemberPreciptation.png)
 
 Looking at both June and December, neither month looks to be alarming on precipatation. Using the mean, it shows .13 precipitation a day for June and .17 precipitation a day for December. Both months looked to have a couple days that had a decent amount of rain, 6 in Decemmer, and 4 in June. The average is low enough and quartiles are also low, that these days look to be more like outliers and nothing to be concerned about.
