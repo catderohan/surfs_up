@@ -35,4 +35,4 @@ Two additional queries I'd look into, would be to look at the precipation for bo
 ![](Resources/Juneprecipitation.PNG)
 ![](Resources/decemberpreciptation.PNG)
 
-Analyzing both June and December precipitation statistics, neither month seems to have a lot of rain. Using the mean, it shows the average of .13cm precipitation a day for June and .17cm precipitation a day for December. Both months had a couple days where it rained a lot, since the max precipitation was 6cm in Decemmer, and 4cm in June, but the average precipitation is low enough and quartiles also low, that these days seem to be more like outliers and nothing to be concerned about.
+Analyzing both June and December precipitation statistics, neither month seems to have a lot of rain. Using the mean, it shows the average of .13cm precipitation a day for June and .17cm precipitation a day for December. Both months had a couple days where it rained significantly, since the max precipitation in December was 6cm, and the max in June was 4cm. The average precipitation is low enough and quartiles are also low, that these days seem to be more like outliers and nothing to be concerned about.
