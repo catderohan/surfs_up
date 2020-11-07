@@ -22,4 +22,9 @@ December weather also looks to be promising for a winter month. The minimum temp
 
 Both June and December have similar weather patterns, and the data does not show any reason not open up a shop year round. Using June and Decemeber months, the surf and ice cream shop business would be sustainable year round.
 
-Two additional queries I'd look into, would be to look at the precipation for both months. H
+Two additional queries I'd look into, would be to look at the precipation for both months. I'd want to make sure those months don't have a ton of rain or in subsceptible to hurricanes. Too much rain could also make a business not sustainable year round.  I'd change the query I used above in temperatures to extract the precipation column instead of tobs colum to gain this information.
+
+[]![](resources/June)
+[]![](resources/June)
+
+Looking at both June and December, neither month looks to be alarming on precipatation. Using the mean, it shows .13 precipitation a day for June and .17 precipitation a day for December. Both months looked to have a couple days that had a lot of rain, 6 in Decemmer, and 4 in June. The average is low enough and quartiles are also low, that these days look to be more like outliers and nothing to be concerned about.
